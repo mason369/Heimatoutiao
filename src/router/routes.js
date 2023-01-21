@@ -1,33 +1,14 @@
-// export default [
-// 	//重定向
-// 	{
-// 		path    : "/",
-// 		redirect: "/login"
-// 	},
-// 	//导入登录组件
-// 	{
-// 		path     : "/login",
-// 		component: () =>
-// 			import(/* webpackChunkName: "login_home_welcome" */ "@/components/Login"),
-// 		name: "login"
-// 	},
-// 	//导入主页组件
-// 	{
-// 		path     : "/home",
-// 		component: () =>
-// 			import(/* webpackChunkName: "login_home_welcome" */ "@/components/Home"),
-// 		name    : "home",
-// 		redirect: "/welcome",
-// 		children: [
-// 			{
-// 				//导入欢迎组件
-// 				path     : "/welcome",
-// 				component: () =>
-// 					import(
-// 						/* webpackChunkName: "login_home_welcome" */ "@/components/Welcome"
-// 					),
-// 				name: "welcome"
-// 			},
-// 		]
-// 	}
-// ];
+export default [
+	//重定向
+	// {
+	// 	path    : "/",
+	// 	redirect: "/login"
+	// },
+	//导入登录组件
+	{
+		path     : "/Header",
+		component: () =>
+			import(/* webpackChunkName: "login_home_welcome" */ "@/components/Header/Header.vue"),
+		name: "Header"
+	},
+];
