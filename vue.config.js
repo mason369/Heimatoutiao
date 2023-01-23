@@ -1,12 +1,11 @@
 // vue.config.js
 
 const { defineConfig } = require("@vue/cli-service");
-module.exports = defineConfig({
-	transpileDependencies: true
-});
+module.exports = defineConfig({transpileDependencies: true});
 
 module.exports = {
 	publicPath: "/Heimatoutiao/",
+	lintOnSave: false
 	// publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
 
 	// //代理服务器

@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B8%AD-green)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![](https://img.shields.io/crates/l/s)](https://img.shields.io/crates/l/s)
-![](https://img.shields.io/badge/Vue-%5E2.6.14-success)
+![](https://img.shields.io/badge/Vue-%5E2.7.14-success)
 ![](https://img.shields.io/badge/Node-%20%5E16.18.0-brightgreen)
 ![](https://img.shields.io/badge/npm-%5E8.19.2-blue)
 
@@ -21,7 +21,6 @@
 
 - [Vue-project-template](#vue-project-template)
   - [内容列表](#内容列表)
-  - [依赖概览](#依赖概览)
 - [Git 规范](#git-规范)
   - [Git 分支命名](#git-分支命名)
 - [Git Commit Message 格式](#git-commit-message-格式)
@@ -34,13 +33,6 @@
     - [特别感谢：](#特别感谢)
   - [使用许可](#使用许可)
   - [本地部署](#本地部署)
-
-<!-- 代码行数：![](https://img.shields.io/badge/JSON-22049-green?style=for-the-badge) -->
-
-## 依赖概览
-
-<!-- start dependencies -->
-<!-- end dependencies -->
 
 # Git 规范
 
