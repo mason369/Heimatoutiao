@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/mason369/Heimatoutiao/compare/v1.1.0...v1.2.0) (2023-01-24)
+
+
+### Features
+
+* update ([288b865](https://github.com/mason369/Heimatoutiao/commit/288b865f43e4a41becef52aae24bbcce54d34950))
+
 ## [1.1.0](https://github.com/mason369/Heimatoutiao/compare/v1.0.0...v1.1.0) (2023-01-23)
 
 
