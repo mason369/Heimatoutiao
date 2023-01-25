@@ -11,9 +11,10 @@ const request = axios.create({
 request.interceptors.request.use(
 	(config) => {
 		//有没有token
-		const token = store.state.token.user.token;
-		if (token) {
-			config.headers.Authorization = `Bearer ${token}`;
+		let token = store.state.token
+		let isLoginToken = store.state.token.user.token
+		if (token && isLoginToken) {
+			config.headers.Authorization = `Bearer ${isLoginToken}`;
 		}
 		return config;
 	},
