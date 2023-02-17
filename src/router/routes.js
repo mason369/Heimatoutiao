@@ -13,12 +13,29 @@ export default [
 			),
 		name: "login"
 	},
+	//导入article
+	{
+		path     : "/article/:articleId",
+		component: () =>
+			import(/* webpackChunkName: "article" */ "@/views/article/"),
+		name : "article",
+		props: true
+	},
 	//导入search
 	{
 		path     : "/search",
 		component: () =>
 			import(/* webpackChunkName: "search" */ "@/views/search/"),
 		name: "search"
+	},
+	//用户资料UserProfile
+	{
+		path     : "/user/profile",
+		component: () =>
+			import(
+				/* webpackChunkName: "user_profile" */ "@/views/user-profile/"
+			),
+		name: "user-profile"
 	},
 	{
 		path     : "/",
