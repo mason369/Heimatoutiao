@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/mason369/Heimatoutiao/compare/v1.4.0...v1.5.0) (2023-02-17)
+
+
+### Features
+
+* 更新文章搜索、详情、评论、用户资料查看、昵称修改 ([18959ab](https://github.com/mason369/Heimatoutiao/commit/18959ab4ee1f060b95882c22a76ce3ea9b1e6969))
+
 ## [1.4.0](https://github.com/mason369/Heimatoutiao/compare/v1.3.0...v1.4.0) (2023-02-13)
 
 
